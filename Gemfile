@@ -16,6 +16,9 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+gem 'paperclip'
+gem 'activeadmin', github: 'activeadmin'
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platform: :mri
